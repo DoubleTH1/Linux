@@ -30,13 +30,13 @@
 - `startx`: Khởi động chế độ xwindows từ cửa sổ terminal.  
 - `mount`: Gắn hệ thống tập tin từ thiết bị lưu trữ vào cây thư mục chính.  
 - `unmount`: Ngược với lệnh `mount`.  
-  Để mount 
+
 ## 2. Các lệnh kiểm tra thông tin hệ thống
 - `cat /proc/cpuinfo`: Kiểm tra thông tin CPU (số core).  
 - `cat /proc/meminfo`: Kiểm tra thông tin RAM đang sử dụng.  
 - `cat /proc/version`: Kiểm tra phiên bản Kernel.  
 - `cat /proc/ioports`: Xem thông tin port I/O.  
-- `cat /etc/redhat-release`: Kiểm tra phiên bản CentOS.  
+- `cat /etc/os`: Kiểm tra phiên bản.  
 - `uname -a`: Kiểm tra thông tin Kernel.
 - `lsblk`: liệt kê toàn bộ thông tin về thiết bị lưu trữ
 - `lscpu`: Hiển thị thông tin chi tiết về cpu
@@ -153,18 +153,16 @@
 - `ps -u username`: Kiểm tra process theo user.  
 - `ps -U root`: Kiểm tra process root.  
 - `ps -A`: Hiển thị tất cả process.  
-- `ss`: Kiểm tra socket đang kết nối.  
+- `ss`: Kiểm tra socket đang kết nối.
+- `netstat`: Hiển thị các socket đang mở.
 - `ss -l`: Hiển thị các cổng đang mở.  
 - `w username`: Xem process của user cụ thể.  
 - `vmstat 3`: Giám sát tài nguyên hệ thống.  
 - `ps`: Liệt kê chương trình đang chạy.  
 - `uptime`: Hiển thị thời gian hoạt động của hệ thống.  
-- `rpm`: Quản lý gói `.rpm`.  
-- `yum`: Cài đặt gói phần mềm.  
+- `apt/yum/rehl/dnf`: Quản lý gói ``.   
 - `wget`: Tải ứng dụng từ web.  
 - `sh`: Chạy file `.sh`.  
-- `startx`: Khởi động xwindows.  
-- `yum update -y`: Cập nhật hệ thống (CentOS).  
 - `service mysql stop/start/restart`: Dừng/khởi động service.  
 - `kill`: Dừng process.  
 - `kill PID` hoặc `kill %job`: Ngừng process theo PID hoặc job ID.  
