@@ -1,23 +1,24 @@
 # Các câu lệnh linux kèm mô tả
 ## Cấu trúc thư mục
+```text
 /
-<br>├── /bin     #User binari
-<br>├── /sbin    #System binari
-<br>├── /etc     #Configuration files
-<br>├── /dev     #Device files
-<br>├── /var     #Variable Files
-<br>├── /home    #Home Directory
-<br>├── /proc    #Process information: Chứa các tệp có thông tin liên quan đến process đang chạy và tài nguyên phần cứng
-<br>├── /mnt     #Mount Directory
-<br>├── /media   #Removable Devices
-<br>├── /srv     #Service Data
-<br>├── /sys     #System Libraries: Lưu trữ thông tin thiết bị và dữ liệu Kernel liên quan đến phần cứng
-<br>├── /usr     #User Programs
-<br>├── /lib     #System Libraries
-<br>├── /tmp     #Temporary File
-<br>├── /boot    #Boot loader file
-<br>├── /opt     #Optional add-on Apps
-
+├── /bin     #User binari
+├── /sbin    #System binari
+├── /etc     #Configuration files
+├── /dev     #Device files
+├── /var     #Variable Files
+├── /home    #Home Directory
+├── /proc    #Process information: Chứa các tệp có thông tin liên quan đến process đang chạy và tài nguyên phần cứng
+├── /mnt     #Mount Directory
+├── /media   #Removable Devices
+├── /srv     #Service Data
+├── /sys     #System Libraries: Lưu trữ thông tin thiết bị và dữ liệu Kernel liên quan đến phần cứng
+├── /usr     #User Programs
+├── /lib     #System Libraries
+├── /tmp     #Temporary File
+├── /boot    #Boot loader file
+├── /opt     #Optional add-on Apps
+```
 **man** lệnh dùng để xem hướng dẫn chi tiết của các lệnh bao gồm syntax, option, chức năng,
 
 # Các lệnh Linux cơ bản
@@ -48,12 +49,10 @@
 - `du -ah`: Hiển thị dung lượng từng file/thư mục con.  
 - `du -h --max-depth=1`: Hiển thị dung lượng các thư mục con cấp 1.  
 - `/sbin/ifconfig`: Xem địa chỉ IP.  
-- `hostname`: Xem tên máy.  
-- `finger user@server`: Xem thông tin chi tiết người dùng.  
+- `hostname`: Xem tên máy.    
 - `arch`: Kiểm tra kiến trúc CPU.  
 - `cat /proc/swaps`: Kiểm tra thông tin SWAP.  
 - `last reboot`: Xem lịch sử reboot máy.  
-- `
 ---
 
 ## 2. Lệnh thao tác trên tập tin
